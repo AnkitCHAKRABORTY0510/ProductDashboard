@@ -7,7 +7,6 @@ import {
   useMediaQuery,
 } from "@mui/material";
 import { tokens } from "../../theme";
-import { mockTransactions } from "../../data/mockData";
 import DownloadOutlinedIcon from "@mui/icons-material/DownloadOutlined";
 import ShoppingCartIcon from "@mui/icons-material/ShoppingCartOutlined";
 import ShowChartRoundedIcon from '@mui/icons-material/ShowChartRounded';
