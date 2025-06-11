@@ -1,6 +1,5 @@
 import { ResponsiveBar } from "@nivo/bar";
 import { tokens } from "../theme";
-import { mockBarData as data } from "../data/mockData";
 import { useState,useEffect } from "react";
 import { useTheme, Box, MenuItem, FormControl, Select, InputLabel, Typography, Paper } from "@mui/material";
 
