@@ -12,10 +12,10 @@ const CredentialsSignInPage = ({ setToken, setUser }) => {
   const navigate = useNavigate();
 
   const signIn = async (provider, formData) => {
-    // const username = formData.get('Username');
-    // const password = formData.get('password');
-    const username = 'sophiab'
-    const password = 'sophiabpass'
+    const username = formData.get('Username');
+    const password = formData.get('password');
+    // const username = 'sophiab'
+    // const password = 'sophiabpass'
 
     try {
       const response = await fetch('https://dummyjson.com/auth/login', {
