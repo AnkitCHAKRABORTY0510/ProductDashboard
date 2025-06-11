@@ -12,7 +12,7 @@ const CredentialsSignInPage = ({ setToken, setUser }) => {
   const navigate = useNavigate();
 
   const signIn = async (provider, formData) => {
-    const username = formData.get('Username');
+    const username = formData.get('email');
     const password = formData.get('password');
     // const username = 'sophiab'
     // const password = 'sophiabpass'
